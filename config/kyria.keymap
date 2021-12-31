@@ -100,7 +100,7 @@
 			bindings = <
 	&kp ESC		&kp EXCL		&kp AT		&kp HASH		&kp DOLLAR		&kp PRCNT                                 							 &kp CARET		&kp AMPS    &kp STAR		&kp LPAR		&kp RPAR		&kp BSPC
 	&trans		&trans			&trans		&trans			&trans 			&trans                      										 &kp UNDER 		&kp EQUAL  	&kp RBKT     	&kp LBRC   		&kp RBRC 		&kp PIPE
-	&trans    	&trans 			&trans 		&trans 			&trans 			&trans 		&trans 		&trans   			&trans		&trans		 &kb KP_MINUS 	&kb KP_PLUS &kp FSLH 		&kp LBKT 		&kp RBKT 		&kp TILDE
+	&trans    	&trans 			&trans 		&trans 			&trans 			&trans 		&trans 		&trans   			&trans		&trans		 &kpS KP_MINUS 	&kpS KP_PLUS &kp FSLH 		&kp LBKT 		&kp RBKT 		&kp TILDE
 	                          				&trans 			&trans 			&trans 		&trans 		&trans   			&trans 		&trans		 &trans		 	&trans		&trans
 			>;
 
