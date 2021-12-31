@@ -68,7 +68,7 @@
 	&kp ESC			&kp Q		&kp W		&kp E		&lt RGB R		&lt MEDIA T                                         							&lt BLUETOOTH Y 	&kp U		&kp I		&kp O		&kp P		&kp BSPC
 	&mto LCTRL TAB	&kp A       &kp S       &kp D       &lt NAV F 		&kp G                                               							&kp H 				&kp J		&kp K		&kp L		&kp SEMI 	&kp SQT
 	&kp LSHFT 		&kp Z 		&kp X       &kp C       &kp V       	&mt LSHFT B 	&none 		&caps_word   		&kp C_PP 		&none  			&kp N 				&kp M		&kp COMMA 	&kp DOT 	&kp FSLH 	&kp DEL
-	                						&kp C_MUTE  &kp LALT    	&mo NUMPAD  	&sl SWAP 	&kp SPACE     		&kp RET			&sl SWAP		&kp LGUI 			&mo RGB 	&kp C_NEXT 
+	                						&kp C_MUTE  &kp LALT    	&mo NUMPAD  	&mo SWAP 	&kp SPACE     		&kp RET			&mo SYMBOLS 	&kp LGUI 			&mo RGB 	&kp C_NEXT 
 			>;
 
 			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
@@ -76,13 +76,13 @@
 
 		swap_layer {
 			bindings = <
-	&kp BSPC       &kp P &kp O &kp I &kp U &lt BLUETOOTH Y                                         &mt MEDIA T &mt RGB R  &kp E     &kp W   &kp Q    &kp ESC
-	&mtp RCTRL SQT &mt RALT SEMI &kp L &kp K &kp J &kp H                                            &kp G &lt NAV F  &kp D     &kp S   &kp A &mto LCTRL TAB
-	&kp RSHFT &mt RGUI FSLH &kp DOT &kp COMMA &kp M &mt RSHFT N &none &kp C_PP   &caps_word  &none &mt LSHFT B &kp V  &kp C &mt LALT X &mt LGUI Z &kp LSHFT
-	                     &mo RGB &kp C_NEXT &mo SYMBOLS &kp SPACE &trans         &trans &kp RET    &mo NUMPAD &kp C_PREV &kp C_MUTE
+	&kp BSPC		&kp N1		&kp N2		&kp N3		&kp N4		&kp N5                                        										&kp N6			&mp N7			&kp N8		&kp N9		&kp N0		&kp ESC
+	&kp TAB 	    &none  	    &none 		&none 		&none 		&none                                            									&none 			&kp UP  		&none     	&none   	&none 		&mto LCTRL TAB
+	&kp RSHFT 		&none 	    &none		&none       &none 		&none		    &none		    &none				&caps_word		&none			&kp LEFT 	    &kp DOWN  		&kp LEFT 	&none 	    &none 	    &kp LSHFT
+	                     					&mo C_MUTE 	&kp LALT 	&mo SYMBOLS 	&kp SPACE 		&trans         		&trans 			&kp RET			&mo NUMPAD		&kp C_PREV 		&kp C_MUTE
 			>;
 
-			sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_DN C_VOL_UP>;
+			sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp LEFT RIGHT>;
 		};
 
 		numpad_layer {
