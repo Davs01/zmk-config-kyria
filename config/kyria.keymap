@@ -68,7 +68,7 @@
 	&kp ESC			&kp Q		&kp W		&kp E		&lt RGB R		&lt MEDIA T                                         							&lt BLUETOOTH Y 	&kp U		&kp I		&kp O		&kp P		&kp BSPC
 	&mto LCTRL TAB	&kp A       &kp S       &kp D       &lt NAV F 		&kp G                                               							&kp H 				&kp J		&kp K		&kp L		&kp SEMI 	&kp SQT
 	&kp LSHFT 		&kp Z 		&kp X       &kp C       &kp V       	&mt LSHFT B 	&none 		&caps_word   		&kp C_PP 		&none  			&kp N 				&kp M		&kp COMMA 	&kp DOT 	&kp FSLH 	&kp DEL
-	                						&kp C_MUTE  &kp LALT    	&mo NUMPAD  	&mo SWAP 	&kp SPACE     		&kp RET			&mo SYMBOLS 	&kp LGUI 			&mo RGB 	&kp C_PP 
+	                						&kp C_MUTE  &kp LALT    	&mo NUMPAD  	&mo SWAP 	&kp SPACE     		&kp RET			&mo SYMBOLS 	&kp LGUI 			&mo NUMPAD 	&kp C_PP 
 			>;
 
 			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
@@ -82,16 +82,16 @@
 	                     					&mo C_MUTE 	&kp LALT 	&mo SYMBOLS 	&kp SPACE 		&trans         		&trans 			&kp RET			&mo NUMPAD		&kp C_PREV 		&kp C_MUTE
 			>;
 
-			sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp LEFT RIGHT>;
+			sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp LEFT RIGHT>;
 		};
 
 		numpad_layer {
 
 			bindings = <
-	&trans     &kp PG_UP &kp HOME &kp UP   &kp END   &kp LBRC                                  &kp RBRC &kp N7  &kp N8 &kp N9 &kp KP_SLASH &trans
-	&kp INSERT &kp PG_DN &kp LEFT &kp DOWN &kp RIGHT &kp LBKT                                  &kp RBKT &kp N4  &kp N5 &kp N6 &kp KP_MINUS &kp KP_MULTIPLY
-	&trans     &trans &trans &kp LC(LEFT) &kp LC(RIGHT) &kp LPAR &trans &trans   &trans &trans &kp RPAR &kp N1  &kp N2 &kp N3 &kp KP_PLUS  &kp EQUAL
-	                         &trans &trans &trans &trans &trans                  &trans  &trans &kp N0 &kp KP_DOT &trans
+	&kp F1		&kp F2			&kp F3			&kp F4		&kp F5		&kp F6                                  							&kp F7			&kp F8		&kp F9 		&kp F10 			&kp F11 		&kp F12
+	&kp INSERT	&kp PG_DN		&kp LEFT 		&kp DOWN 	&kp RIGHT 	&kp LBKT                                  							&kp N7 			&kp N8  	&kp N9 		&kp KP_MINUS		&trans 			&kp KP_MULTIPLY
+	&trans     	&trans 			&trans 			&trans 		&trans 		&kp LPAR		&trans		&trans   		&trans		&trans 		&kp N4 			&kp N5  	&kp N6 		&kp KP_PLUS 		&trans  		&kp EQUAL
+	                         					&trans 			&trans 	&trans 			&trans 		&trans         	&trans 		&kp N0 		&kp N1 			&kp N2 		&kp N3
 			>;
 		};
 
