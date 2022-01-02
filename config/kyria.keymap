@@ -27,7 +27,7 @@
 };
 
 &right_encoder {
-	resolution = <2>;
+	resolution = <4>;
 };
 
 &mt {
@@ -71,7 +71,7 @@
 	                						&kp C_MUTE  &kp LALT    	&mo NUMPAD  	&mo SWAP 	&kp SPACE     		&kp RET			&mo SYMBOLS 	&kp LGUI 			&mo NUMPAD 	&kp C_PP 
 			>;
 
-			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
+			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_VOL_DN C_VOL_UP>;
 		};
 		
 		swap_layer {
